@@ -19,7 +19,7 @@
     "fix": "standard --fix test/*.test.js src/**/*.js src/**/**/*.js src/*.js examples/*.js *.js",
     "test": "jest --config jest.config.js --verbose --runInBand",
     "pretest": "npm run lint",
-    "start":"node app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "license": "MIT",
@@ -62,11 +62,11 @@
     "url": "http://github.com/PrismarineJS/flying-squid/issues"
   },
   "devDependencies": {
+    "flying-squid": "file:.",
     "jest": "^26.0.1",
     "longjohn": "^0.2.12",
     "minecraft-wrap": "^1.2.3",
     "mineflayer": "^3.0.0",
-    "standard": "^16.0.1",
-    "flying-squid": "file:."
+    "standard": "^16.0.1"
   }
 }
